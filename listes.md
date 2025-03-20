@@ -19,6 +19,10 @@ khalile wissal
 
 ### khalile wissal
 
+argmax : l'indice  du plus grand élément
+ex1:
+
+
 ```{admonition} Définition
 
 Une liste est une collection ordonnée de valeurs.
