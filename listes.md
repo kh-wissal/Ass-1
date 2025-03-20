@@ -265,6 +265,39 @@ print(argmax([1, 6, 2, 4]))
 
 Nous présentons dans ce qui suit les opérations élémentaires de manipulation de listes.
 
+### intersection de deux listes 
+###ex2 
+###correction prof
+```
+l =[5,12,48,-2,0,-48,5,12]
+def posmax(l):
+    m, k=l[0],0
+    for i, e in enumerate(l):
+        if e > m:
+            m =e
+            k=i
+    return m,k
+    
+    
+print("Max est ", posmax(l))
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 ### Insertion d'élément
 
 Pour insérer un nouvel élément dans une liste, on peut :
