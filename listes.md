@@ -592,4 +592,24 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de m�
 
 1. [Argmax](ex4.1)
 2. [Intersection de listes](ex4.2)
-3. [Union de listes](ex4.3)
+3. ###ex2 
+###correction prof
+```
+l =[5,12,48,-2,0,-48,5,12]
+def posmax(l):
+    m, k=l[0],0
+    for i, e in enumerate(l):
+        if e > m:
+            m =e
+            k=i
+    return m,k
+    
+    
+print("Max est ", posmax(l))
+
+
+
+
+
+```
+4. [Union de listes](ex4.3)
