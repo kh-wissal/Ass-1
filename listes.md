@@ -228,7 +228,7 @@ Si cette valeur maximale est présente plusieurs fois dans la liste, on retourne
                'src': '# Complétez ce code'})
 </script>
 
-###correction2
+### correction2
 
 ```
 l =[5,12,48,-2,0,-48,5,12]
